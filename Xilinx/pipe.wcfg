@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="452500001fs"></ZoomEndTime>
+      <Cursor1Time time="359000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="144"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/testbench/a" type="array">
+      <obj_property name="ElementShortName">a[7:0]</obj_property>
+      <obj_property name="ObjectShortName">a[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/b" type="array">
+      <obj_property name="ElementShortName">b[7:0]</obj_property>
+      <obj_property name="ObjectShortName">b[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/c" type="array">
+      <obj_property name="ElementShortName">c[7:0]</obj_property>
+      <obj_property name="ObjectShortName">c[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/d" type="array">
+      <obj_property name="ElementShortName">d[15:0]</obj_property>
+      <obj_property name="ObjectShortName">d[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/s" type="logic">
+      <obj_property name="ElementShortName">s</obj_property>
+      <obj_property name="ObjectShortName">s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+</wave_config>
