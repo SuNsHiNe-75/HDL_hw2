@@ -1,0 +1,48 @@
+ 
+****************************************
+Report : area
+Design : hw2_pipe_gclk
+Version: O-2018.06
+Date   : Tue Oct 18 14:54:29 2022
+****************************************
+
+Library(s) Used:
+
+    sc9_cln40g_base_rvt_ss_typical_max_0p81v_125c (File: /usr/cad/CBDK/CBDK_TSMC40_Arm_f2.0/CIC/SynopsysDC/db/sc9_base_rvt/sc9_cln40g_base_rvt_ss_typical_max_0p81v_125c.db)
+
+Number of ports:                          200
+Number of nets:                           475
+Number of cells:                          229
+Number of combinational cells:            192
+Number of sequential cells:                32
+Number of macros/black boxes:               0
+Number of buf/inv:                         40
+Number of references:                       3
+
+Combinational area:                330.901195
+Buf/Inv area:                       21.319200
+Noncombinational area:             145.151993
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                   476.053187
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ------------------------
+hw2_pipe_gclk                      476.0532    100.0    5.4432     0.0000  0.0000  hw2_pipe_gclk
+p1g                                148.1004     31.1   15.8760    72.5760  0.0000  pipe1_gclk
+p1g/add_16                          27.8964      5.9   27.8964     0.0000  0.0000  pipe1_gclk_DW01_add_0
+p1g/sub_16                          31.7520      6.7   31.7520     0.0000  0.0000  pipe1_gclk_DW01_sub_0
+p2g                                322.5096     67.7    6.8040    72.5760  0.0000  pipe2_gclk
+p2g/mult_36                        243.1296     51.1  243.1296     0.0000  0.0000  pipe2_gclk_DW_mult_uns_0
+--------------------------------  ---------  -------  --------  ---------  ------  ------------------------
+Total                                                 330.9012   145.1520  0.0000
+
+1

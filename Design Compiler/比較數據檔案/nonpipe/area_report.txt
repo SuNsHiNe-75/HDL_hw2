@@ -1,0 +1,47 @@
+ 
+****************************************
+Report : area
+Design : hw2_nonpipe
+Version: O-2018.06
+Date   : Wed Oct 12 16:35:46 2022
+****************************************
+
+Library(s) Used:
+
+    sc9_cln40g_base_rvt_ss_typical_max_0p81v_125c (File: /usr/cad/CBDK/CBDK_TSMC40_Arm_f2.0/CIC/SynopsysDC/db/sc9_base_rvt/sc9_cln40g_base_rvt_ss_typical_max_0p81v_125c.db)
+
+Number of ports:                          157
+Number of nets:                           630
+Number of cells:                          356
+Number of combinational cells:            352
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                         45
+Number of references:                       7
+
+Combinational area:                635.947189
+Buf/Inv area:                       20.412000
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                   635.947189
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  -------------------------
+hw2_nonpipe                        635.9472    100.0   26.5356     0.0000  0.0000  hw2_nonpipe
+add_8                               27.8964      4.4   27.8964     0.0000  0.0000  hw2_nonpipe_DW01_add_0
+mult_10                            275.3352     43.3  275.3352     0.0000  0.0000  hw2_nonpipe_DW_mult_uns_1
+mult_8                             273.9744     43.1  273.9744     0.0000  0.0000  hw2_nonpipe_DW_mult_uns_0
+sub_10                              32.2056      5.1   32.2056     0.0000  0.0000  hw2_nonpipe_DW01_sub_0
+--------------------------------  ---------  -------  --------  ---------  ------  -------------------------
+Total                                                 635.9472     0.0000  0.0000
+
+1
